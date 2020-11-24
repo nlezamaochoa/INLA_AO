@@ -1,0 +1,19 @@
+        AUC     AUC.sd
+1 0.9184915 0.07374776
+> threshold<-optimal.thresholds(verif,threshold=101,which.model=1,opt.methods=4);threshold
+    Method  V3
+1 MaxKappa 0.7
+> CMX<-cmx(verif,threshold=threshold[,2]);CMX
+         observed
+predicted    1    0
+        1    2   15
+        0    1 1218
+> Kappa(CMX)
+      Kappa  Kappa.sd
+1 0.1966854 0.1193218
+> sensitivity(CMX)
+  sensitivity sensitivity.sd
+1   0.6666667      0.3333333
+> specificity(CMX)
+  specificity specificity.sd
+1   0.9878345    0.003123208

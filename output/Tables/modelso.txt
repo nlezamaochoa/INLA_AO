@@ -1,0 +1,17 @@
+
+MONTH+TYPE+CHL+NI+O2+SSH + SPATIAL (lineal) 4239.11 es mas bajo que el resto el dic porque aunque es lineal
+incluye el spatial effect
+
+no lineal
+TYPE 4736.22
+TYPE + MONTH 4774.15
+TYPE +  MONTH + CHL 4772.38
+TYPE + MONTH + CHL+ NI 4738.43
+TYPE  + MONTH + CHL + NI + O2 4727.04
+MONTH+TYPE+CHL+NI+O2+SSH 4645.29
+
+
+MONTH+TYPE+CHL+NI+O2+SSH + SPATIAL 4151.06 (no lineal)
+
+chl+ni+o2+ssh+spatial LINEAL 
+
